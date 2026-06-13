@@ -1,6 +1,24 @@
 {
     "logo": {
-        "source": "~/.config/fastfetch/logo.txt",
+        "source": "~/.config/fastfetch/Ascii.txt",
         "type": "file"
-    }
+    },
+    "modules": [
+        {
+            "type": "os",
+            "key": "OS",
+            "format": "Zybuntu LTS x86_64"
+        },
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "display",
+        "de",
+        "wm",
+        "terminal",
+        "cpu",
+        "gpu",
+        "memory"
+    ]
 }
